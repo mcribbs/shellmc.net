@@ -1,0 +1,49 @@
+/* 
+    Document   : styles.css
+    Created on : Oct 3, 2013, 8:40:59 AM
+    Author     : Play
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#icon-easy-pie-coming-soon {
+    background: transparent url( '../images/easy-pie-cs-logo32.png' ) no-repeat;
+}
+
+.color-selector {
+    vertical-align: middle;
+}
+/*.bx-viewport { border-bottom: solid #AAA 1px; border-top: solid #AAA 1px;}*/
+
+.bx-wrapper { margin: 0 0 20px 0!important }
+#easy-pie-cs-bxslider-pager img { margin-top:-10px; margin-right:1px; border: 1px solid #AAA; height:71px; width:98%;}
+
+.bx-prev { left: -45px!important;}
+.bx-next { right: -45px!important;}
+
+/*
+old pager
+#easy-pie-cs-bxpager {
+	text-align: center;
+    max-width: 100%;
+	margin-top: -44px;
+}
+
+#easy-pie-cs-bxpager a {
+	margin: 0 3px;
+}
+
+#easy-pie-cs-bxpager a img {
+	padding: 3px;
+	border: solid #ccc 2px;
+    width: 120px;
+    height: 80px;
+}
+
+#easy-pie-cs-bxpager a:hover img,
+#easy-pie-cs-bxpager a.active img {
+	border: solid #5280DD 2px;
+}*/
+
+
+

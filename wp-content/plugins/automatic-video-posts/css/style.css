@@ -1,0 +1,27 @@
+/**************************************************************************************************/
+/*
+/*		File:
+/*			styles.css
+/*		Description:
+/*			This file contains CSS for the front-end aspects of the plugin.
+/*		Copyright:
+/*			Copyright (c) 2014 Ternstyle LLC.
+/*		License:
+/*			This software is licensed under the terms of the End User License Agreement (EULA) 
+/*			provided with this software. In the event the EULA is not present with this software
+/*			or you have not read it, please visit:
+/*			http://www.ternstyle.us/automatic-video-posts-plugin-for-wordpress/license.html
+/*
+/**************************************************************************************************/
+
+/*------------------------------------------------------------------------------------------------
+	Meta
+------------------------------------------------------------------------------------------------*/
+
+div.ayvpp_video_meta_data { float:right;margin:0 0 10px 10px;text-align:right; }
+div.ayvpp_video_meta { display:inline-block;width:222px;background:#f0f0f0;border:1px dotted #ccc;margin:0 0 20px 20px;padding:10px; }
+div.ayvpp_video_meta a, div.ayvpp_video_meta span { display:block;text-align:right;padding-right:20px; }
+div.ayvpp_video_meta span { font-size:10px; }
+div.ayvpp_video_meta label { display:inline-block;width:50px;margin-top:10px;text-align:right;line-height:16px;font-size:11px;color:#666; }
+div.ayvpp_video_meta input { display:inline-block;width:146px;margin-left:3px;font-size:10px;color:#666;line-height:16px; }
+iframe.ayvpp { margin-bottom:20px; }

@@ -1,0 +1,72 @@
+/**************************************************************************************************/
+/*
+/*		File:
+/*			admin.css
+/*		Description:
+/*			This file contains CSS for the administrative aspects of the plugin.
+/*		Copyright:
+/*			Copyright (c) 2014 Ternstyle LLC.
+/*		License:
+/*			This software is licensed under the terms of the End User License Agreement (EULA) 
+/*			provided with this software. In the event the EULA is not present with this software
+/*			or you have not read it, please visit:
+/*			http://www.ternstyle.us/automatic-video-posts-plugin-for-wordpress/license.html
+/*
+/**************************************************************************************************/
+
+/*------------------------------------------------------------------------------------------------
+	Admin
+------------------------------------------------------------------------------------------------*/
+
+.ayvpp-wrap hr { margin:30px 0; }
+
+/*------------------------------------------------------------------------------------------------
+	Meta
+------------------------------------------------------------------------------------------------*/
+
+#ayvpp_meta_box label { display:block;margin:20px 0 10px 0;font-size:14px;font-weight:bold; }
+#ayvpp_meta_box input { display:block;width:100%;line-height:22px; }
+#ayvpp_meta_box .chk { display:inline-block;width:auto;margin:0 4px 0 0; }
+
+/*------------------------------------------------------------------------------------------------
+	Import
+------------------------------------------------------------------------------------------------*/
+
+#ayvpp_log { overflow:hidden;height:0; }
+#ayvpp_total { margin-top:0; }
+#ayvpp_status { position:relative;overflow:scroll;height:300px;background:#000;font-family:Monaco,Helvetica,Arial;color:#0F0; }
+#ayvpp_list { padding:0 20px 20px; }
+#ayvpp_list * { display:block;margin:0;line-height:20px;font-size:14px; }
+#ayvpp_list h4 { margin:20px 0; }
+#ayvpp_list h5 { margin:0 0 20px; }
+#ayvpp_list .req { color:#ff0000; }
+
+/*------------------------------------------------------------------------------------------------
+	Reset
+------------------------------------------------------------------------------------------------*/
+
+#WP_ayvpp_reset_form h3 { margin:30px 0 0; }
+
+/*------------------------------------------------------------------------------------------------
+	Channel / Playlist Add
+------------------------------------------------------------------------------------------------*/
+
+#wpbody-content #WP_ayvpp_add_item { display:none; }
+
+#WP_ayvpp_add_item_form .categories, #TB_window #WP_ayvpp_add_channel_form .categories { overflow:scroll;height:200px;border:1px solid #ccc; }
+#WP_ayvpp_add_item_form .categories > div, #TB_window #WP_ayvpp_add_channel_form .categories > div { padding:10px; }
+#WP_ayvpp_add_item_form .chk { width:auto;margin:0 4px 0 0; }
+
+#TB_window #WP_ayvpp_add_channel_form label { display:block;margin:20px 0 4px; }
+#TB_window #WP_ayvpp_add_channel_form .categories label { margin:2px; }
+#TB_window #WP_ayvpp_add_channel_form input { width:100%;padding:2px 0;font-size:20px; }
+#TB_window #WP_ayvpp_add_channel_form .chk { width:auto;margin:0 4px 0 0; }
+#TB_window #WP_ayvpp_add_channel_form .button-primary { width:auto;height:auto;padding:3px 8px; }
+
+/*-----------------------
+	Errors
+-----------------------*/
+
+.tern_errors, .tern_alerts, .tern_warnings { background:#ffebe8;border:1px solid #c00;margin:10px 15px 10px 0;padding:0 .6em;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;color:#c00; }
+.tern_alerts { background:#cbffcd;border:1px solid #390;color:#030; }
+.tern_warnings { background:#fcf8e3;border:1px solid #fbeed5;color:#c09853; }

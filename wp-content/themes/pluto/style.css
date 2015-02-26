@@ -1,0 +1,37 @@
+/*
+Theme Name: Theme Pluto
+Theme URI: http://pluto.pinsupreme.com
+Author: Tamik Soziev
+Author URI: http://soziev.com/
+Description: Gorgeous multipurpose Wordpress theme.
+Version: 1.8.3
+License:
+License URI:
+Tags: black, white
+Text Domain: pluto
+*/
+
+.wp-caption {
+  max-width: 100%;
+}
+.wp-caption-text {
+
+}
+.sticky {
+
+}
+.gallery-caption {
+
+}
+.bypostauthor {
+
+}
+.alignright {
+  text-align: right;
+}
+.alignleft {
+  text-align: left;
+}
+.aligncenter {
+  text-align: center;
+}

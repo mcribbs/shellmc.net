@@ -1,0 +1,570 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Pie Coming Soon Plugin\n"
+"POT-Creation-Date: 2014-06-14 16:49-0700\n"
+"PO-Revision-Date: 2014-06-14 16:49-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/Entities/admin/class-ezp-cs-content-entity.php:53
+#: ../classes/Entities/admin/class-ezp-cs-content-entity.php:65
+msgid "Coming soon"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-content-entity.php:54
+msgid "Our exciting new website is coming soon! Check back later."
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-content-entity.php:55
+msgid "We won't spam you or sell your email address. Pinky swear."
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-content-entity.php:56
+msgid "(C)2014 My Company LLC"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-content-entity.php:58
+msgid "Enter email"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-content-entity.php:59
+msgid "Enter name"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-content-entity.php:60
+msgid "Subscribe"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-content-entity.php:62
+msgid "Thank you!"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-content-entity.php:63
+msgid "You'll hear from us when we launch."
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:81
+msgid "Headline font must end in a unit (px, em, etc...)"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:82
+msgid "Description font must end in a unit (px, em, etc...)"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:83
+msgid "Disclaimer font must end in a unit (px, em, etc...)"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:84
+msgid "Footer font must end in a unit (px, em, etc...)"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:85
+msgid "Email button font must end in a unit (px, em, etc...)"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:89
+msgid "Email button height font must end in px or %"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:90
+msgid "Email button width must end in px or %"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:92
+msgid "Content box opacity must be between 0 and 1"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:221
+msgid "Size"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:231
+msgid "Arial"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:232
+msgid "Courier New"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:233
+msgid "Comic Sans MS"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:234
+msgid "Georgia"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:235
+msgid "Impact"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:236
+msgid "Times New Roman"
+msgstr ""
+
+#: ../classes/Entities/admin/class-ezp-cs-display-entity.php:237
+msgid "Verdana"
+msgstr ""
+
+#: ../classes/Entities/crm/class-ezp-email-entity.php:42
+msgid "Main Email"
+msgstr ""
+
+#: ../classes/Utilities/class-ezp-cs-query-utility.php:138
+msgid "Name is too long"
+msgstr ""
+
+#: ../classes/Utilities/class-ezp-cs-query-utility.php:143
+msgid "Email address is not valid"
+msgstr ""
+
+#: ../classes/Utilities/class-ezp-cs-utility.php:110
+msgid "Coming Soon is On"
+msgstr ""
+
+#: ../classes/Utilities/class-ezp-cs-utility.php:113
+msgid "Coming Soon is Off"
+msgstr ""
+
+#: ../classes/class-ezp-cs.php:467
+msgid "Easy Pie Coming Soon Template"
+msgstr ""
+
+#: ../classes/class-ezp-cs.php:467 ../pages/page-options.php:44
+msgid "Template"
+msgstr ""
+
+#: ../classes/class-ezp-cs.php:468
+msgid "Easy Pie Coming Soon Settings"
+msgstr ""
+
+#: ../classes/class-ezp-cs.php:468 ../pages/page-options-settings.php:33
+msgid "Settings"
+msgstr ""
+
+#: ../classes/class-ezp-cs.php:469
+msgid "Easy Pie Coming Soon Subscribers"
+msgstr ""
+
+#: ../classes/class-ezp-cs.php:469 ../pages/page-subscribers.php:56
+msgid "Subscribers"
+msgstr ""
+
+#: ../mini-themes/base-responsive/index.php:199
+#: ../pages/page-subscribers-list-tab.php:137
+msgid "Name"
+msgstr ""
+
+#: ../mini-themes/base-responsive/index.php:204
+#: ../pages/page-subscribers-list-tab.php:138
+msgid "Email"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:64
+#: ../pages/page-options-display-tab.php:89
+#: ../pages/page-options-settings.php:76
+msgid "Errors present:"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:68
+#: ../pages/page-options-display-tab.php:93
+#: ../pages/page-options-settings.php:80
+msgid "Settings Saved."
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:68
+#: ../pages/page-options-display-tab.php:93
+#: ../pages/page-options-settings.php:80
+msgid "If you have a caching plugin be sure to clear it."
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:73
+#: ../pages/page-options-display-tab.php:197
+msgid "Logo"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:77
+#: ../pages/page-options-display-tab.php:121
+msgid "Image"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:82
+#: ../pages/page-options-display-tab.php:170
+msgid "Upload"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:92
+#: ../pages/page-options-content-tab.php:96
+msgid "Title"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:110
+msgid "Main Text"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:114
+#: ../pages/page-options-content-tab.php:201
+msgid "Headline"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:124
+msgid "Description"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:134
+msgid "Disclaimer"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:144
+msgid "Footer"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:157
+msgid "Email Text"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:162
+msgid "Email Placeholder"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:172
+msgid "Name Placeholder"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:182
+msgid "Button"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:191
+#: ../pages/page-options-content-tab.php:221
+msgid "Section relevant only if email collection is enabled in"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:191
+#: ../pages/page-options-content-tab.php:221
+msgid "settings"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:197
+msgid "Thank You Text"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:212
+#: ../pages/page-options-display-tab.php:261
+msgid "Text"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:226
+msgid "Countdown"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:230
+msgid "Due Date"
+msgstr ""
+
+#: ../pages/page-options-content-tab.php:235
+msgid "Countdown timer will display when populated"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:99
+msgid "Display Template"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:101
+msgid "Templates"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:102
+msgid "Templates give you a starting point for your display settings."
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:107
+msgid "Background"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:111
+#: ../pages/page-options-display-tab.php:246
+#: ../pages/page-options-display-tab.php:314
+msgid "Color"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:125
+msgid "Instead of background color use one of these images"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:166
+msgid "or use your own"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:179
+msgid "Tile"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:184
+msgid "Enabled"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:187
+msgid "Image covers screen when tiling is disabled"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:202
+#: ../pages/page-options-display-tab.php:289
+msgid "Width"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:207
+#: ../pages/page-options-display-tab.php:218
+msgid "Specify px or %"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:213
+#: ../pages/page-options-display-tab.php:300
+msgid "Height"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:229
+msgid "Content Box"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:233
+msgid "Opacity"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:277
+msgid "Specify px or em for sizes"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:284
+msgid "Email Button"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:294
+#: ../pages/page-options-display-tab.php:305
+msgid "Append px or %"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:329
+msgid "Advanced"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:332
+msgid "Custom CSS"
+msgstr ""
+
+#: ../pages/page-options-display-tab.php:340
+msgid "CSS Customization tips"
+msgstr ""
+
+#: ../pages/page-options-settings.php:36 ../pages/page-options.php:47
+msgid "If you have a caching plugin, be sure to clear the cache!"
+msgstr ""
+
+#: ../pages/page-options-settings.php:85
+msgid "General"
+msgstr ""
+
+#: ../pages/page-options-settings.php:89
+msgid "Status"
+msgstr ""
+
+#: ../pages/page-options-settings.php:93
+msgid "On"
+msgstr ""
+
+#: ../pages/page-options-settings.php:94
+msgid "Off"
+msgstr ""
+
+#: ../pages/page-options-settings.php:104
+msgid "Collection"
+msgstr ""
+
+#: ../pages/page-options-settings.php:108
+msgid "Collect Email"
+msgstr ""
+
+#: ../pages/page-options-settings.php:113
+#: ../pages/page-options-settings.php:124
+#: ../pages/page-subscribers-list-tab.php:155
+msgid "Yes"
+msgstr ""
+
+#: ../pages/page-options-settings.php:119
+msgid "Collect Name"
+msgstr ""
+
+#: ../pages/page-options-settings.php:134
+msgid "HTTP"
+msgstr ""
+
+#: ../pages/page-options-settings.php:138
+msgid "Return Code"
+msgstr ""
+
+#: ../pages/page-options-settings.php:142
+msgid "200"
+msgstr ""
+
+#: ../pages/page-options-settings.php:143
+msgid "503"
+msgstr ""
+
+#: ../pages/page-options-settings.php:152
+msgid "Social"
+msgstr ""
+
+#: ../pages/page-options-settings.php:156
+msgid "Facebook URL"
+msgstr ""
+
+#: ../pages/page-options-settings.php:166
+msgid "Google Plus URL"
+msgstr ""
+
+#: ../pages/page-options-settings.php:176
+msgid "Twitter URL"
+msgstr ""
+
+#: ../pages/page-options-settings.php:190
+msgid "SEO"
+msgstr ""
+
+#: ../pages/page-options-settings.php:194
+msgid "Author URL"
+msgstr ""
+
+#: ../pages/page-options-settings.php:199
+msgid "Google+ or other identifying URL"
+msgstr ""
+
+#: ../pages/page-options-settings.php:205
+msgid "Meta Description"
+msgstr ""
+
+#: ../pages/page-options-settings.php:215
+msgid "Meta Keywords"
+msgstr ""
+
+#: ../pages/page-options-settings.php:220
+msgid "Comma separated list"
+msgstr ""
+
+#: ../pages/page-options-settings.php:226
+msgid "Analytics Code"
+msgstr ""
+
+#: ../pages/page-options-settings.php:231
+msgid "Analytics tracking code"
+msgstr ""
+
+#: ../pages/page-options-settings.php:231
+msgid "include"
+msgstr ""
+
+#: ../pages/page-options-settings.php:241
+msgid "Filters"
+msgstr ""
+
+#: ../pages/page-options-settings.php:245
+msgid "Unfiltered URLs"
+msgstr ""
+
+#: ../pages/page-options-settings.php:250
+msgid ""
+"Each line should contain a relative URL you don't want the page shown on (e."
+"g. for http://mysite.com/mypage enter /mypage)"
+msgstr ""
+
+#: ../pages/page-options-settings.php:261 ../pages/page-options.php:99
+#: ../pages/page-subscribers.php:75
+msgid "Plugin FAQ"
+msgstr ""
+
+#: ../pages/page-options-settings.php:263 ../pages/page-options.php:101
+#: ../pages/page-subscribers.php:77
+msgid "Rate Plugin"
+msgstr ""
+
+#: ../pages/page-options-settings.php:265 ../pages/page-options.php:103
+#: ../pages/page-subscribers.php:79
+msgid "Donate"
+msgstr ""
+
+#: ../pages/page-options-settings.php:267 ../pages/page-options.php:105
+#: ../pages/page-subscribers.php:81
+msgid "Feature Request"
+msgstr ""
+
+#: ../pages/page-options.php:59
+msgid "Display"
+msgstr ""
+
+#: ../pages/page-options.php:60
+msgid "Content"
+msgstr ""
+
+#: ../pages/page-options.php:61
+msgid "Preview"
+msgstr ""
+
+#: ../pages/page-subscribers-list-tab.php:139
+msgid "Date"
+msgstr ""
+
+#: ../pages/page-subscribers-list-tab.php:140
+#: ../pages/page-subscribers-list-tab.php:153
+#: ../pages/page-subscribers-list-tab.php:157
+msgid "Delete"
+msgstr ""
+
+#: ../pages/page-subscribers-list-tab.php:149
+msgid "unknown"
+msgstr ""
+
+#: ../pages/page-subscribers-list-tab.php:156
+msgid "No"
+msgstr ""
+
+#: ../pages/page-subscribers-list-tab.php:167
+msgid "Prev"
+msgstr ""
+
+#: ../pages/page-subscribers-list-tab.php:168
+msgid "Page"
+msgstr ""
+
+#: ../pages/page-subscribers-list-tab.php:168
+msgid "of"
+msgstr ""
+
+#: ../pages/page-subscribers-list-tab.php:170
+msgid "Next"
+msgstr ""
+
+#: ../pages/page-subscribers-list-tab.php:178
+#: ../pages/page-subscribers-newsletter-tab.php:84
+msgid "Delete User?"
+msgstr ""
+
+#: ../pages/page-subscribers-newsletter-tab.php:69
+msgid "Save"
+msgstr ""
+
+#: ../pages/page-subscribers.php:44
+msgid "Subscriber Management"
+msgstr ""
+
+#: ../pages/page-subscribers.php:57
+msgid "Create Newsletter"
+msgstr ""

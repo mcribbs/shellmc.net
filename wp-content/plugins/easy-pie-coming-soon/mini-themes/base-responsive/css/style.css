@@ -1,0 +1,340 @@
+/* Basic CSS starts */
+
+body{	
+    /* Setting: {{background-url}}*/
+  /*  background: #222 url('../img/grass.jpg') center;  */      
+
+    /* Setting: {{background-cover-on}}*/
+/* RSR  now under control of admin  -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+      background-size: cover;
+*/
+    color:#fff;
+    font-size:15px;
+    line-height:25px;
+    font-weight:300;
+    text-shadow:1px 1px 1px #777;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    margin:0;
+    padding:0;
+}
+
+strong{
+    font-weight:600;
+}
+
+a{
+    color:#fff !important;
+    text-decoration:none;
+    border-bottom:1px dashed #fff;
+}
+
+a:hover{
+    color:#fff;
+    text-decoration:none;
+    border-bottom:0px;
+}
+
+a:hover,a:active,a:focus {
+    outline: 0;
+}
+
+hr{
+
+}
+
+form *{
+    border-radius:0px !important;
+    box-shadow:none !important;
+  /*rsr customizing now  font-size:13px !important;*/
+}
+
+form input,
+form textarea{
+    border:1px solid #555 !important;
+  /* customizing  color:#555 !important; */
+    font-weight:400 !important;
+}
+
+form input:hover,
+form textarea:hover,
+form input:focus,
+form textarea:focus{
+    border:1px solid #f75353 !important;
+}
+
+input::-webkit-input-placeholder{
+    color:#555 !important;
+    opacity:1 !important;
+}
+
+.btn{
+    border:0px !important;
+}
+
+:focus {
+    outline:none;
+}
+
+::-moz-focus-inner {
+    border:0;
+}
+
+/* Basic CSS ends */
+
+#thank-you-section {
+    display:none;
+}
+/*CSS Starts*/
+
+/* Backgrounds */
+
+.br-red, #countdown-hours {
+    background:#f75353;
+}
+
+.br-green, #countdown-days {
+    background:#51d466;
+}
+
+.br-lblue, #countdown-minutes {
+    background:#32c8de;
+}
+
+.br-blue {
+    background:#609cee;
+}
+
+.br-brown{
+    background:#c27256;
+}
+
+.br-pink{
+    background:#eb76cb;
+}
+
+.br-orange, #countdown-seconds {
+    background:#f7a253;
+}
+
+.br-yellow{
+    background:#f4e375;
+}
+
+.br-purple{
+    background:#cb79e6;
+}
+
+.br-white{
+    background:#fff;
+}
+/* Border */
+
+.br-border{
+    border:8px solid rgba(0,0,0,0.3);
+}
+
+.btn-danger{
+    background:#f75353;
+}
+
+/* Header */
+
+header{
+    padding-top:0;
+  /* RSR  padding-bottom:40px; */
+}
+
+/*RSR header{
+
+    font-size:60px;
+}*/
+
+header p{
+    margin:0 auto;
+    max-width:600px;
+    line-height:35px;
+    letter-spacing:0.5px;
+} 
+
+/* Header Complete */
+
+/*-- Countdown --*/
+
+#countdown{
+    margin-bottom:40px;
+    text-align:center;
+}
+
+#countdown  div{
+    display:inline-block;
+    font-size:40px;
+    height:120px;
+    width:120px;
+    padding-top:30px;
+    margin-right:7px;
+    margin-left:7px;
+    outline:5px solid rgba(0,0,0,0.2);
+}
+
+/* Fix for FireFox - it doesn't like the outline */
+@-moz-document url-prefix() {
+    #countdown  div {
+        outline: 0px;
+    }
+}
+
+#countdown div span{
+    display:block;
+    margin-top:15px;
+    font-size:20px;
+
+}
+
+/*-- End Countdown --*/
+
+/*-- Content Area --*/
+
+#content-area {
+    text-shadow:none;
+    /* Setting: is transparent if {{box-on}}, opacity={{box-opacity}}, color={{box-color}}, */
+    background:rgba(0,0,0,0.3); 
+    margin:60px 10% 30px 10%; // RSR WAS 0 auto 
+    max-width:600px;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:20px;
+    padding-right:20px;
+
+}
+
+#content-area p{
+   /* RSR customizable now font-size:18px;*/
+    margin-top:15px;
+    margin-bottom:25px;
+}
+
+#content-area span{
+    display:inline-block;
+    padding:8px 12px 8px 12px;
+    margin-right:5px;
+    margin-bottom:25px;
+}
+
+#content-area form input{
+/*   padding:20px !important; */
+    height: 42px;
+}
+
+#content-area form .btn{
+  /* rsr  padding:12px 11px 12px 11px;*/
+/* RSR overridden    color:#fff; */
+}
+
+/*-- End Content Area --*/
+
+/*-- Social --*/
+
+#social{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+#social a{
+    display:inline-block;
+    border-bottom:none;
+    margin-right:10px;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 1s ease;
+    -o-transition: background 1s ease;
+    -ms-transition: background 1s ease;
+    transition: background 1s ease;
+    outline:3px solid rgba(0,0,0,0.2);
+}
+
+#social i{
+    height:50px;
+    width:50px;
+    line-height:50px;
+    text-align:center;
+    font-size:22px;
+}
+
+#social a:hover{
+    background:rgba(0,0,0,0.2);
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 1s ease;
+    -o-transition: background 1s ease;
+    -ms-transition: background 1s ease;
+    transition: background 1s ease;
+}
+
+/*-- End Social --*/
+
+/*-- Footer --*/
+
+#copyright-text {
+    margin-top:40px;
+    margin-bottom:20px;
+
+}
+
+/*-- End Footer --*/
+
+/* Forms Inside the Slider Controls */
+
+/* Responsive CSS */
+
+/* Mobile phones */
+@media (max-width: 540px){
+
+    #countdown  div{
+        font-size:20px !important;
+        height:65px !important;
+        width:65px !important;
+        padding-top:8px !important;        
+        margin-bottom:8px !important;
+
+    }
+
+    #countdown div span{
+        margin-top:0px !important;
+        font-size:14px !important;
+
+    }
+
+}
+
+/* Tablets */
+@media (max-width: 1000px){
+    #countdown  div{
+        font-size:25px;
+        height:80px;
+        width:80px;
+        padding-top:10px;
+        margin-left:3px;
+        margin-right:3px;
+    }
+
+    #countdown div span{
+        margin-top:8px;
+        font-size:15px;
+
+    }
+
+}
+
+/* Desktop */
+/*@media (max-width: 991px){
+
+}*/
