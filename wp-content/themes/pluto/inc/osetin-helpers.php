@@ -405,7 +405,7 @@ function os_output_post_thumbnail($size = false, $forse_single = false)
         }else{
            if (defined('DOING_AJAX') && DOING_AJAX) { 
               // UGLY HACK TO WORKAROUND THE HOOK NOT BEING CALL FROM AJAX
-	           $img_html = '<img src="'.AYVPP_URL.'/tools/timthumb.php?src='.get_post_thumbnail_id().'&w=640&h=360" alt="'.$post->post_title.'" title="'.$post->post_title.'" />';
+	           $img_html = '<img src="'.AYVPP_URL.'/tools/timthumb.php?src='.get_post_thumbnail_id().'&w=400&h=225" alt="'.$post->post_title.'" title="'.$post->post_title.'" />';
            }else{
               $img_html = (os_get_use_fixed_height_index_posts() == true) ? get_the_post_thumbnail(get_the_ID(), 'pluto-fixed-height') : get_the_post_thumbnail(get_the_ID(), 'pluto-index-width');
            } 
