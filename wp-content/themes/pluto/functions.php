@@ -74,8 +74,8 @@ function pluto_setup() {
   add_theme_support( 'post-thumbnails' );
   set_post_thumbnail_size( 672, 372, false );
   add_image_size( 'pluto-full-width', 1038, 576, false );
-  add_image_size( 'pluto-index-width', 640, 380, true );
-  add_image_size( 'pluto-fixed-height', 400, 200, true );
+  add_image_size( 'pluto-index-width', 400, 700, false );
+  add_image_size( 'pluto-fixed-height', 400, 225, true );
   add_image_size( 'pluto-top-featured-post', 200, 150, true );
   add_image_size( 'pluto-carousel-post', 600, 400, true );
 
