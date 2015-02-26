@@ -8,7 +8,7 @@ function load_infinite_content(){
   $post_query_args = $_POST['next_params'].'&post_status=publish';
   $os_query = new WP_Query($post_query_args);
   while ($os_query->have_posts()) : $os_query->the_post();
-  $content_partial = 'content';
+    $content_partial = 'content';
     if(isset($_POST['layout_type'])){
       if($_POST['layout_type'] == 'v2'){
         $content_partial = 'v2-content';

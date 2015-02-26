@@ -384,7 +384,7 @@ function os_output_post_thumbnail($size = false, $forse_single = false)
             <figure>
             <?php
             if($size != false){
-               $thumb_size = $size;
+              $thumb_size = $size;
             }else{
               $thumb_size = 'full';
             } ?>
@@ -410,7 +410,7 @@ function os_output_post_thumbnail($size = false, $forse_single = false)
               $img_html = (os_get_use_fixed_height_index_posts() == true) ? get_the_post_thumbnail(get_the_ID(), 'pluto-fixed-height') : get_the_post_thumbnail(get_the_ID(), 'pluto-index-width');
            } 
         }
-      } 
+      }
       $shade_html = (get_field('disable_image_hover_effect', 'option') == true) ? "" : '<div class="figure-shade"></div><i class="figure-icon os-icon-thin-044_visability_view_watch_eye"></i>';
       $os_link = get_post_format() == 'link' ? get_field('external_link') : get_permalink(); ?>
       <div class="post-media-body"><div class="figure-link-w"><a href="<?php echo $os_link; ?>" class="figure-link"><figure><?php echo $img_html; ?><?php echo $shade_html; ?></figure></a></div></div>
