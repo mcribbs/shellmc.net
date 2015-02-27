@@ -16,7 +16,7 @@
 			$url = $userpro->file_uri(  userpro_profile_data( 'profilepicture', $id_or_email ), $id_or_email );
 	        $params = array('width'=>$size,'height'=>$size,'quality'=>100);
 			$crop = bfi_thumb(get_site_url().(strpos($url,"http") !== false ? urlencode($url) : $url),$params);
-			$return = '<img src="'.$crop.'" width="'.$size.'" height="'.$size.'" alt="'.$alt.'" class="modified avatar" />';
+			$return = '<img src="'.urldecode($crop).'" width="'.$size.'" height="'.$size.'" alt="'.$alt.'" class="modified avatar" />';
 		
 		} else {
 		
