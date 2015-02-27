@@ -3,12 +3,14 @@
 
 .lsb-status-widget-holder ul {
     list-style-type: none;
+    padding-left: 0px;
 }
 
 .lsb-status-widget-list-item {
 }
 
 .lsb-status-widget-list-item.lsb-on {
+	margin-bottom: 15px;
 }
 
 .lsb-status-widget-list-item.lsb-off {
@@ -28,9 +30,11 @@
 }
 
 .lsb-status-widget-indicator.lsb-on {
+	color: #f85555;
 }
 
 .lsb-status-widget-indicator.lsb-off {
+	color: #bbcbd3;
 }
 
 .lsb-status-widget-image, .lsb-status-widget-image > a {
@@ -38,7 +42,9 @@
 }
 
 .lsb-status-widget-image img {
-    max-width: 100%;
+    max-width: 99%;
+    width: 99%
+    margin-left: 1%;
 }
 
 /* Embedded view */
