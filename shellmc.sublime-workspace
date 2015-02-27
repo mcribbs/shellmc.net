@@ -1,0 +1,213 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin-",
+				"margin-left"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 227.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/matthew.cribbs/Documents/Dropbox/Code/shellmc.net"
+	],
+	"file_history":
+	[
+		"/Users/matthew.cribbs/Code/shellmc.net/wp-content/themes/pluto/assets/less/theme/menu-block.less",
+		"/Users/matthew.cribbs/Code/shellmc.net/wp-content/themes/pluto/inc/osetin-helpers.php",
+		"/Users/matthew.cribbs/Code/shellmc.net/wp-content/themes/pluto/functions.php",
+		"/Users/matthew.cribbs/Library/Application Support/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/Users/matthew.cribbs/Code/shellmc.net/sftp-config.json",
+		"/Users/matthew.cribbs/Code/shellmc.net/wp-content/plugins/menu-icons/readme.txt",
+		"/Users/matthew.cribbs/Code/shellmc.net/wp-content/plugins/index.php",
+		"/Users/matthew.cribbs/Code/shellmc.net/wp-content/plugins/menu-icons/LICENSE",
+		"/Users/matthew.cribbs/Code/shellmc.net/wp-content/plugins/menu-icons/menu-icons.php",
+		"/Users/matthew.cribbs/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/private/var/folders/p0/sjn4gd4119n26_bns94q_p2hr366mj/T/cd4d2a99-9a95-434d-84c9-e7f479dd9764/home/shellmc/webroot/wp-content/themes/pluto/readme.txt",
+		"/Users/matthew.cribbs/Downloads/pluto/content-none.php",
+		"/Users/matthew.cribbs/Downloads/export",
+		"/Users/matthew.cribbs/Documents/Dropbox/Active/Personal - Cribbscraft channel/Desc and tags.txt",
+		"/Users/matthew.cribbs/Code/bs_test/apache-tomcat-7.0.59/conf/tomcat-users.xml",
+		"/Users/matthew.cribbs/Downloads/apache-tomcat-7.0.59/RUNNING.txt",
+		"/Applications/ATLauncher.app/Contents/Resources/Java/Instances/HermitcraftModsauce/crash-reports/crash-2015-02-10_15.30.38-client.txt",
+		"/Users/matthew.cribbs/Desktop/calendar.vcs",
+		"/Users/matthew.cribbs/Desktop/HermitcraftModsauce_1010/server.properties",
+		"/Users/matthew.cribbs/Documents/Dropbox/Active/Personal - To FILE/Unsorted/lol.tcl",
+		"/Users/matthew.cribbs/Downloads/plupload-2.1.2/readme.md",
+		"/private/var/folders/p0/sjn4gd4119n26_bns94q_p2hr366mj/T/b2fd08b5-92a8-491c-aefe-d0140ad9a482/commands.yml",
+		"/private/var/folders/p0/sjn4gd4119n26_bns94q_p2hr366mj/T/b2fd08b5-92a8-491c-aefe-d0140ad9a482/mcpc.yml",
+		"/private/var/folders/p0/sjn4gd4119n26_bns94q_p2hr366mj/T/b2fd08b5-92a8-491c-aefe-d0140ad9a482/cauldron.yml",
+		"/private/var/folders/p0/sjn4gd4119n26_bns94q_p2hr366mj/T/b2fd08b5-92a8-491c-aefe-d0140ad9a482/plugins/PluginMetrics/config.yml",
+		"/private/var/folders/p0/sjn4gd4119n26_bns94q_p2hr366mj/T/b2fd08b5-92a8-491c-aefe-d0140ad9a482/bukkit.yml",
+		"/private/var/folders/p0/sjn4gd4119n26_bns94q_p2hr366mj/T/b2fd08b5-92a8-491c-aefe-d0140ad9a482/spigot.yml",
+		"/private/var/folders/p0/sjn4gd4119n26_bns94q_p2hr366mj/T/b2fd08b5-92a8-491c-aefe-d0140ad9a482/server.properties",
+		"/Applications/ATLauncher.app/Contents/Resources/Java/Servers/HermitcraftModsauce_1006/server.properties",
+		"/Applications/ATLauncher.app/Contents/Resources/Java/Servers/HermitcraftModsauce_1006/config/Soul Shards Reborn/Entity Blacklist.cfg",
+		"/Applications/ATLauncher.app/Contents/Resources/Java/Servers/HermitcraftModsauce_1006/config/GraveStoneMod/GraveStone.cfg",
+		"/Applications/ATLauncher.app/Contents/Resources/Java/Servers/HermitcraftModsauce_1006/config/Morpheus.cfg",
+		"/Users/matthew.cribbs/Downloads/TranscriptConverters/TranscriptConverter.app/Contents/MacOS/TranscriptConverter",
+		"/Users/matthew.cribbs/Documents/Dropbox/Active/Personal - To FILE/Colloquy Transcripts/#arsificial 1-4-10.colloquyTranscript",
+		"/Users/matthew.cribbs/Documents/Dropbox/Settings/zsh/oh-my-zsh/custom/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ob_start",
+			"ob_get_content",
+			"pisto",
+			"logic",
+			"dust"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 143.0
+	},
+	"project": "shellmc.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
