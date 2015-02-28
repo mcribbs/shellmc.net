@@ -50,6 +50,7 @@ class ZillaSocial {
 			'Spotify' => 'e.g. http://open.spotify.com/user/username',
 			'StumbleUpon' => 'e.g. http://www.stumbleupon.com/stumbler/username',
 			'Tumblr' => 'e.g. http://username.tumblr.com',
+			'Twitch' => 'e.g. http://www.twitch.tv/username',
 			'Twitter' => 'e.g. http://twitter.com/username',
 			'Viddler' => 'e.g. http://www.viddler.com/explore/username',
 			'Vimeo' => 'e.g. http://vimeo.com/username',
