@@ -30,3 +30,7 @@ div.channel-button {
 div.userpro-centered-icons {
 	display: inline;
 }
+
+div.userpro-profile-img-btn {
+	margin-top: -30px;
+}
