@@ -1,0 +1,32 @@
+/* custom alert box */
+div.userpro-alert {
+	background: #444 !important;
+	color: #fff !important;
+}
+div.userpro-alert i {color: #fff !important;}
+div.userpro-alert-content, div.userpro-alert-input {color: #fff !important;}
+a.userpro-alert-close, a.userpro-alert-edit{
+	color: #fff !important;
+}
+
+div.userpro-profile-img {
+	margin: -8px 0 0 10px
+}
+
+div.userpro-profile-name {
+	text-align: left;
+	margin: -70px 0 0 160px;
+	line-height: 55px !important;
+}
+
+div.channel-button {
+	float: right;
+	border-radius: 5px;
+	border: 2px solid #ddd;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+div.userpro-centered-icons {
+	display: inline;
+}

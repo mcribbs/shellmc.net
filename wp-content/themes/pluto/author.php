@@ -16,35 +16,7 @@ get_header(); ?>
   <?php if ( have_posts() ) : ?>
 
     <header class="archive-header">
-      <div class="row">
-        <div class="col-sm-2">
-          <div class="text-center">
-            <div class="avatar-w">
-              <?php echo get_avatar(get_the_author_meta('ID')); ?>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-10">
-          <h3 class="archive-title">
-            <?php
-              /*
-               * Queue the first post, that way we know what author
-               * we're dealing with (if that is the case).
-               *
-               * We reset this later so we can run the loop properly
-               * with a call to rewind_posts().
-               */
-              the_post();
-
-              printf( __( 'All posts by %s', 'pluto' ), get_the_author() );
-            ?>
-          </h3>
-          <?php if ( get_the_author_meta( 'description' ) ) : ?>
-          <div class="author-description"><?php the_author_meta( 'description' ); ?></div>
-          <?php endif; ?>
-
-        </div>
-      </div>
+      <?php echo do_shortcode('[userpro template=view header_only=true max_width=100% user=author]'); ?>
     </header><!-- .archive-header -->
 
     <div class="content side-padded-content">
