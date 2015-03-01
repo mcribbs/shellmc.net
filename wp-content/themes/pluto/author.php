@@ -13,8 +13,6 @@ get_header(); ?>
 <div class="main-content-w">
   <?php os_the_primary_sidebar(); ?>
   <div class="main-content-i">
-  <?php if ( have_posts() ) : ?>
-
     <header class="archive-header">
       <?php echo do_shortcode('[userpro template=view header_only=true max_width=100% user=author]'); ?>
     </header><!-- .archive-header -->
@@ -22,13 +20,6 @@ get_header(); ?>
     <div class="content side-padded-content">
 
     <?php
-      /*
-       * Since we called the_post() above, we need to rewind
-       * the loop back to the beginning that way we can run
-       * the loop properly, in full.
-       */
-      rewind_posts();
-
       $layout_mode = (os_get_use_fixed_height_index_posts() == true) ? 'fitRows' : 'masonry';
       echo '<div class="index-isotope v1" data-layout-mode="'.$layout_mode.'">';
       $os_current_box_counter = 1; $os_ad_block_counter = 0;
@@ -57,13 +48,7 @@ get_header(); ?>
       <?php else: ?>
         <?php posts_nav_link(); ?>
       <?php endif; ?>
-    </div><?php
-
-    else :
-      // If no content, include the "No posts found" template.
-      get_template_part( 'content', 'none' );
-    endif;
-    ?>
+    </div>
   </div>
     <?php os_footer(); ?>
   </div>
