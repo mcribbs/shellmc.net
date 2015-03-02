@@ -38,6 +38,9 @@
   <?php if(get_field('google_analytics_code', 'option')): ?>
     <?php the_field('google_analytics_code', 'option'); ?>
   <?php endif; ?>
+  <div style="width: 100%; height: 300px; background-position: center center; background-repeat: no-repeat; background-size: cover; background-image: url(http://shellmc.net/wp-content/uploads/2015/03/ShellSMP_Youtube.png);">
+    &nbsp;
+  </div>
   <div class="menu-block <?php if(get_field('hide_widgets_under_menu', 'option') == TRUE) echo 'hidden-on-smaller-screens'; ?>">
     <?php if(get_current_menu_position() == "top"): ?>
       <?php if(get_current_menu_style() == 'v2'){ ?>
