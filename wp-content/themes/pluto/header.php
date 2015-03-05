@@ -106,7 +106,7 @@
       </div>
       <?php if(get_field('search_form_position', 'option') == 'above_menu') get_search_form(); ?>
 
-      <div class="divider"></div>
+ 
 
       <?php wp_nav_menu(array('theme_location'  => 'side_menu', 'fallback_cb' => false, 'container_class' => 'os_menu')); ?>
 
@@ -116,7 +116,7 @@
 
 
 
-      <div class="divider"></div>
+   
 
       <?php if(get_field('search_form_position', 'option') == 'above_social') get_search_form(); ?>
 
