@@ -9,9 +9,6 @@
           <?php if(os_is_post_element_active('title')): ?>
             <h4 class="post-title entry-title"><a href="<?php echo esc_url( get_permalink() ); ?>"><?php the_title(); ?></a></h4>
           <?php endif; ?>
-          <?php if(os_is_post_element_active('category')): ?>
-            <?php echo get_the_category_list(); ?>
-          <?php endif; ?>
           <?php if(os_is_post_element_active('excerpt')): ?>
             <div class="post-content entry-summary"><?php echo os_excerpt(get_field('index_excerpt_length', 'option'), os_is_post_element_active('read_more')); ?></div>
           <?php endif; ?>
@@ -20,7 +17,19 @@
     </div>
     <?php if(os_is_post_element_active('date') || os_is_post_element_active('author') || os_is_post_element_active('like')): ?>
       <div class="post-meta entry-meta">
-
+          <div class="meta-cat">
+            <?php if(os_is_post_element_active('category')): ?>
+            <ul class="post-categories">
+              <?php 
+              foreach((get_the_category()) as $category) {
+                if($category->name=='Uncategorized') continue; ?>
+                <li>
+                  <a href="<?= get_category_link( $category->term_id ); ?>" title="<?= esc_attr( sprintf( __( "View all videos in %s" ), $category->name )) ?>"><?= $category->cat_name ?></a>
+                </li> 
+              <?php } ?>
+              </ul>
+            <?php endif; ?>
+          </div>
 
         <?php if(os_is_post_element_active('date')): ?>
           <div class="meta-date">

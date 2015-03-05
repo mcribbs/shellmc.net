@@ -35,3 +35,8 @@ Text Domain: pluto
 .aligncenter {
   text-align: center;
 }
+
+ .meta-cat {
+      padding: 14px 0px 0px 10px;
+      float: left;
+    }
